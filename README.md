@@ -153,3 +153,4 @@ FastAPI serves the resulting `frontend/dist` at `/app`.
 - The role switch is a demo control, not production authentication.
 - Production deployment would require authentication, authorization, consent, audit logging, encryption, stronger evaluation and clinical/safety review.
 # Kindered
+# Kindered
