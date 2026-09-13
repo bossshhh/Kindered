@@ -1,14 +1,25 @@
-backend/.env
-backend/.venv/
-.venv/
-backend/data/*.db
-backend/data/audio/
-backend/app/ml/*.pkl
-frontend/node_modules/
-frontend/dist/
-__pycache__/
-*.pyc
-.DS_Store
+# Secrets / local env (never commit real keys)
 .env
 .env.*
 !.env.example
+backend/.env
+*.pem
+*.p12
+*.key
+credentials.json
+**/secrets/
+
+# Python / local runtime
+backend/.venv/
+.venv/
+__pycache__/
+*.pyc
+*.pkl
+backend/app/ml/*.pkl
+
+# App data & build artifacts
+backend/data/*.db
+backend/data/audio/
+frontend/node_modules/
+frontend/dist/
+.DS_Store
