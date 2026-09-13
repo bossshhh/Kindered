@@ -1,0 +1,88 @@
+{
+  "rows": 867,
+  "intent_counts": [
+    [
+      "social",
+      237
+    ],
+    [
+      "emotional_support",
+      229
+    ],
+    [
+      "reminder",
+      193
+    ],
+    [
+      "health",
+      93
+    ],
+    [
+      "emergency",
+      57
+    ],
+    [
+      "fall_safety",
+      25
+    ],
+    [
+      "memory",
+      17
+    ],
+    [
+      "relative_request",
+      14
+    ],
+    [
+      "orientation",
+      2
+    ]
+  ],
+  "source_counts": [
+    [
+      "conversation_text",
+      436
+    ],
+    [
+      "daily_reminder",
+      234
+    ],
+    [
+      "seed_curated",
+      91
+    ],
+    [
+      "safety_monitoring",
+      81
+    ],
+    [
+      "health_monitoring",
+      16
+    ],
+    [
+      "dementia_health_priors",
+      5
+    ],
+    [
+      "npha_priors",
+      4
+    ]
+  ],
+  "risk_counts": [
+    [
+      "low",
+      558
+    ],
+    [
+      "medium",
+      260
+    ],
+    [
+      "critical",
+      49
+    ]
+  ],
+  "unification_method": "task-level schema mapping with provenance \u2014 NOT person-level joins",
+  "fatal_harm_note": "This corpus improves routing toward safer response policies. It does not create a clinical oracle. Wrong medical advice remains dangerous; emergency and health paths must stay deterministic and deferential.",
+  "corpus_path": "/Users/bosshhh/Desktop/behavioral-digital-twin/backend/data/unified/caretaker_unified_corpus.csv"
+}

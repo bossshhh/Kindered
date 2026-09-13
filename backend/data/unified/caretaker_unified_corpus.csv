@@ -1,0 +1,868 @@
+text,intent,risk_hint,policy,source,unit_of_observation,provenance_id
+hello good morning,social,low,warm_brief_company,seed_curated,utterance,seed:0
+good afternoon,social,low,warm_brief_company,seed_curated,utterance,seed:1
+how are you today,social,low,warm_brief_company,seed_curated,utterance,seed:2
+tell me a story,social,low,warm_brief_company,seed_curated,utterance,seed:3
+I want to chat,social,low,warm_brief_company,seed_curated,utterance,seed:4
+can we talk for a while,social,low,warm_brief_company,seed_curated,utterance,seed:5
+what is the weather like today,social,low,warm_brief_company,seed_curated,utterance,seed:6
+I feel like talking,social,low,warm_brief_company,seed_curated,utterance,seed:7
+tell me something interesting,social,low,warm_brief_company,seed_curated,utterance,seed:8
+what have you been doing,social,low,warm_brief_company,seed_curated,utterance,seed:9
+I would like some company,social,low,warm_brief_company,seed_curated,utterance,seed:10
+let us have a conversation,social,low,warm_brief_company,seed_curated,utterance,seed:11
+I am bored and want to talk,social,low,warm_brief_company,seed_curated,utterance,seed:12
+good evening,social,low,warm_brief_company,seed_curated,utterance,seed:13
+I feel lonely,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:14
+I am sad today,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:15
+I miss my husband,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:16
+I feel anxious,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:17
+I am scared and worried,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:18
+today has been difficult,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:19
+I feel down,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:20
+I am having a hard day,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:21
+I feel alone tonight,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:22
+I need someone to listen,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:23
+I am upset about my family,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:24
+I feel overwhelmed,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:25
+I am worried about what will happen,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:26
+I don't feel very happy,emotional_support,low,listen_validate_ground,seed_curated,utterance,seed:27
+I forgot what I did yesterday,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:28
+I cannot remember her name,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:29
+what did we talk about before,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:30
+help me remember my appointment,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:31
+I keep forgetting things,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:32
+what was I supposed to do today,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:33
+can you remind me what we discussed,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:34
+I forgot where I put my glasses,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:35
+do you remember my story,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:36
+what was the name of that place,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:37
+I cannot recall yesterday,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:38
+remind me about my routine,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:39
+I am having trouble remembering,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:40
+can you help me recall something,memory,low,use_supplied_facts_only,seed_curated,utterance,seed:41
+what medicine should I take,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:42
+my chest hurts,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:43
+I feel dizzy,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:44
+what should I do about my blood pressure,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:45
+my knee is painful,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:46
+I have a headache,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:47
+I feel weak today,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:48
+my blood pressure seems high,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:49
+I have pain in my leg,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:50
+I am feeling sick,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:51
+should I change my medication,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:52
+I have a new symptom,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:53
+I fell and now I hurt,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:54
+I cannot stop coughing,health,medium,support_and_defer_clinical,seed_curated,utterance,seed:55
+I need my daughter,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:56
+can you call my son,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:57
+I want to hear her voice,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:58
+is my husband here,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:59
+can I talk to my daughter,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:60
+where is my son,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:61
+I want to speak with my family,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:62
+please get my daughter,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:63
+tell me about my daughter,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:64
+can my son visit me,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:65
+I want to hear from my family,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:66
+can you contact my relative,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:67
+I miss my daughter and want to talk,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:68
+is my family coming today,relative_request,low,persona_without_impersonation,seed_curated,utterance,seed:69
+I want to hurt myself,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:70
+I want to die,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:71
+I am thinking about suicide,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:72
+I cannot breathe,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:73
+call an ambulance,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:74
+this is an emergency,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:75
+I have severe chest pain and cannot breathe,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:76
+I am in danger,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:77
+please call for help now,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:78
+I might hurt myself,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:79
+I need emergency help,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:80
+something is seriously wrong,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:81
+I am having a medical emergency,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:82
+get someone to help me immediately,emergency,critical,defer_to_human_emergency,seed_curated,utterance,seed:83
+remind me to drink water,reminder,low,gentle_cue_no_dosage,seed_curated,utterance,seed:84
+is it time for my appointment,reminder,low,gentle_cue_no_dosage,seed_curated,utterance,seed:85
+remind me to take a short walk,reminder,low,gentle_cue_no_dosage,seed_curated,utterance,seed:86
+I missed my hydration reminder,reminder,low,gentle_cue_no_dosage,seed_curated,utterance,seed:87
+I fell down and cannot get up,fall_safety,medium,check_safety_and_notify,seed_curated,utterance,seed:88
+I slipped in the bathroom,fall_safety,medium,check_safety_and_notify,seed_curated,utterance,seed:89
+please check on me I may have fallen,fall_safety,medium,check_safety_and_notify,seed_curated,utterance,seed:90
+"You are joking, aren't you? I mean, look, I've made time in my day to come here.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:30
+"-your family splits up, or whatever, and you don't have anymore, I-I think you stop caring really. Uh, y-you know, you stop caring about yourself",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:463
+"And she's got my kids on this against me, you know, my son and my daughter, they're, it's like, they're ganging up on me, you know what I mean?",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:2:8
+-you don't care.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:486
+So- and I don't wanna impose on my neighbors or my friends.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:24
+"-or whatever, 'cause it's—",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:17
+You'd have to be a real fool not to do it-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:12:6
+And agitation really-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:119
+"it-it-it's-- you know, she will, ""Why don't you give up? You've gone so far, why don't you just stop?"" But I don't want to.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:546
+- didn't spot it and—,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:112
+"Something clicked, I'd had a bunch to drink and, uh, and I knew I'd messed up. I totally messed up.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:30:5
+"And why go any further, it's there?",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:389
+Because everything is just f-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:464
+Not gonna worked for me.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:12:37
+Sure. Fine. Just—,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:22:6
+"Well, I usually drink when I'm at home trying to unwind and I drink while I'm watching a movie. And sometimes, um, I take a bath but I also drink when I take a bath sometimes.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:0:19
+It just seemed to get worse when it was the weekend-,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:31:2
+"As they say, my aunt was like, ""Put another nail in your coffin,"" you know.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:81
+"Well, I like to watch movies, read a book, and take a bath but sometimes I drink when I take a bath.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:0:4
+It's not acceptable.,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:33
+"Yeah, and I-I didn't think it was much, but that makes it look like I'm drinking way too much.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:39:28
+"Yeah, but I don't have to give up anything really, do I?",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:454
+"Well, he did. He says he's going to put me on some sort of program if it gets worse.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:332
+"I smoked when I was young, and I certainly don't want it for her.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:40:16
+"Yeah, and you know, another thing, uh, uh, you know, it's so so bang, but the weight gain is like—",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:23:47
+"Oh right, well, wha-what we talked about. Now, you know, uh, okay, uh, coffee. Right? No sugar.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:509
+"Yeah, yeah. I sort of—",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:545
+That was very uncomfortable.,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:7
+"Right and, um, she's been expressing, you know, she walks in and she's like shhh and it's embarrassing for her friends and, um, and in-in turn, it's embarrassing for me.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:104
+I mean you know—,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:359
+"They say it's awful. Um, being cranky.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:26:34
+"And even then I-I snuck out and had a cigarette, you know.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:75
+"Well, she's concerned about my health and she cuts out all these articles from the paper about second-hand smoke and—",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:2:10
+"And it is discouraging, just like discouraging.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:27:8
+"It's crazy, it's crazy.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:103
+"And I had to sit in the chair. I couldn't, you know, do what they were doing.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:41
+"Uh, it's part of my life. It's, uh, I started smoking when I was 13, 14 at home. My parents smoked. All of their friends smoked. It was on television. Everybody looked so grand.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:34:29
+"I had no choice, I had no choice. And then the next day I was back to smoking again what I smoked.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:34:28
+"Yeah, yeah, yeah, yeah, [unintelligible 00:01:13] hmm.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:12:14
+"Well, yes, the stereotype,-",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:440
+"For a bit of the head in the morning, you know.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:335
+"So, it's-- it was-- I simply felt self-conscious.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:43
+"Yeah, exactly. Mm-hmm. Yeah. Um, and the first thing when I was able to smoke, I didn't care if I smoke my brand or anybody else's brand, I just wanted that cigarette.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:70
+"Um, is it getting worse? I don't know. I-I-I suppose. What worse? Is it-is it increasing? Well, to say, I don't really notice it.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:387
+"Yeah, yeah. Food on the run, you know?",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:8
+"You know? Even after a decent night's sleep, you know?",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:564
+"Yeah, just this morning, I was outside having a cigarette, and then when I looked up, there she was looking out the window watching me smoke.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:40:10
+"Well, you know, and this is difficult because I don't feel unhealthy now.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:597
+"It's particularly, um, uncomfortable. Um, I have to say I do notice it when my husband's away. He-",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:39
+"Yeah, I mean.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:400
+"Because it's like people who will start and say, ""I'm going to stop drinking at New Year's Eve. After midnight, I'm not gonna drink.""",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:23:27
+"Well, I-I offered my home to somebody and, uh, for, you know, uh, a transitional period.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:36:15
+"Yeah, that's the problem, that's what I face now with my job.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:11:0
+"Well, I used to be quite a heavy smoker, right? I mean, I'd smoke a pack in a half a day. And I knew that wasn't doing me any good.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:345
+Sometimes I just don't like how much I drink. I sometimes finish a bottle in one night.,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:0:12
+You got rid of that bad-,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:12:19
+I haven't felt well for a while. I'm getting coughing fits even when I'm on the telephone with customers.,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:34:23
+"Um, if I'm stressed, coffee with a cigarette.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:73
+Or-or digesting? Should I say the excessive sugars?,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:382
+"Um, constant thoughts about smoking.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:67
+"Um, I can't argue with a medical professional, Mark, because I know nothing, you know.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:538
+"I mean the thing is when you're a-- I mean, I've always smoked. So, but when you're young and you're a sportsman, you know—",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:346
+"Well, it's b- it's bad form, you know?",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:45
+"Um, yeah I don't mind. I-- It's not a—",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:578
+"Yeah, I-I-I know I'm not an idiot and people know that smokers are, you know, ""How can you smoke today?"" [coughs] It's just not that easy to, uh, quit.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:12:13
+"Yeah, we share-- ""Okay, oh, a smoker, let's go out and have a smoke together,"" yeah.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:23:41
+"But I-I mean and it's not that I don't care about him, I do. But you know, it's just like, we're both- we're all adults here, come on.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:36:9
+"Right. Right, yeah. You can't have my stash. [laughs]",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:23:38
+"Well, I know my drinking has increased a little since I got divorced and moved to Portland, but I-I don't think it's that much of a problem.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:39:29
+"That seems to be like, uh, a false setting up, you know, like, come on.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:23:26
+"Yeah, like this girl Ruth that I know she's-she's, uh, got a serious job and she kind of does that on the side. [laughs]",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:36:24
+You shouldn't smoke.,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:531
+"You know, you pass a cigarette down the backline almost, don't you? You know, just before the game gets—",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:348
+"Yes, yeah. And that's what I associated with at the time and now it's almost, I'm ostracized for it.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:83
+A lot self-conscious.,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:44
+"Is it okay if you have one without the other? I'm sorry, it's a silly question. [laughs]",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:571
+"I mean, I never bothered to boil an egg in the water, you know.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:370
+"""-sitting in the corner of the bar, and chat, and talk and probably get fat."" I don't know, and make it worse. And, yeah, maybe, maybe, maybe, maybe.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:474
+"The people I work with, we go out in the courtyard-",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:34:14
+"Yeah. It's-it's-- I can't make that-- It wouldn't be fair for me to say it does or doesn't. It didn't that one time, but you know.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:13
+"Mm-hmm. Yes, sometimes I feel worse after drinking.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:0:10
+"My life is great, and then you turn around and say, ""Hey you've got-- you-you're ill, you're sick.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:312
+It is. It really is. It's a monkey on my back,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:17:24
+"No, it's not like I get crazy or anything but I just don't like the amount that I'm drinking.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:0:11
+"Okay, sure. Fine.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:22:1
+"Well, I can't see that my mind can be causing this amount of pain.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:152
+"Totally. I mean, I was just in charge of the wine, you know.",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:371
+Yeah-yeah. Not too bad.,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:560
+"[unintelligible 00:03:34] options. I had some-- I had my surgeon just go like, ""You're- you're--"" like, ""Why do I even keep you as a patient?""",emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:12:1
+It was a waste and it caused more side effects,emotional_support,low,listen_validate_ground,conversation_text,dialogue_utterance,conv:41:13
+"Well, then I feel blur again.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:0:14
+"-you know, for breathing, um, and, um, I was trying to stick my head out the window to gasp for air-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:99
+"I-I mean, I know I can, but it's really difficult.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:23
+"Um, on a really bad day, I start to think it might be cancer.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:65
+"Well, I don't think too much trouble in taking the medicines, especially since I understand my blood sugar is really high. and-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:27:13
+"Where would I start? Well, I-- What if about if I cut down on sugar in the coffee? If we could have long blacks, no milk, and no sugar.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:563
+"Well, you know- why don't you just give me the medicine, I'll take it home and I'll think about it? But you know, I'm worried about my job.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:22:8
+"I-I've had friends that had that happen. So, um, I-I agree a little, with some hesitation, but I do agree.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:33
+If I make an appointment with a client for 10:00-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:35
+"And, uh, yeah, I worry about that.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:60
+"And though my son keeps telling me that I'm drinking too much, and it's scary to think that my drinking is harmful. It's a big word.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:39:11
+"-unsuccessfully, uh,--",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:96
+"Oh, God, yeah, yeah. But, you know, and it's scary to have an extra, a huge extra trunk that you have to carry with you [chuckles].",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:36:37
+"-really a little frightened that what if- what if I fall down and-and-and nobody comes around and I'm lying there for two days, you know. I may have heard about that.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:112
+"Yeah, no-no we-we wanna able to be very active.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:11:23
+"Every time I go-- Excuse me. -to any doctor, you know, you need to quit smoking and—",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:17:16
+"I really couldn't tell you, um, I remember when my daughter was like five, um, I was-- it was humid out and I have a problem with humidity-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:100
+-and my daughter became so frightened that she went next door to our neighbor and called 911 and it really—,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:98
+"I'm- I'm really scared, uh, 'cause I don't feel well.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:34:22
+Not yet? [laughs] Okay. Yeah. I was sort of- I-I was sort of hesitant to tell you-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:52
+"-for a week, uh, trying to mark down the-the difference in my smoking, being more aware when I had the urge, if I could stop the urge-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:31:8
+"I felt terrible, you know, I was projecting-- I wanna be a good parent, and I don't feel this really is part of the plan.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:40:8
+'Cause I-I-I-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:31:27
+"No, [crosstalk] oh, well, okay, yeah I didn't- yeah, I'll go back and say-- Well, look, I'd-I'd rather not go back to the doctor and say, ""I'm gonna do this, this, this-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:518
+"- and I-I have to say I was worried that, um, that I wouldn't be able to cope with it.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:91
+"Well, I mean, it can't all be in my head. I get too much physical pain-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:48
+"Well, I potter around the house-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:98
+"I mean, that alone, to know that I have communication that I w- that was my biggest fear that something-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:89
+-that made me rethink-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:26:32
+"So, I mean, what-what-what-what suggestions would you have? I mean, what-what sort of-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:539
+"I think to myself, I think, ""Oh,"" I think go—",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:479
+"Yeah. I guess so, feeling a little scared-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:102
+"Well, I mean, I-I did think that perhaps it was an infection that hadn't cleared up-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:51
+"I know I've got to stop. Uh, I'm having no health problems from cigarettes-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:26:29
+"If I rush too much that-that's true. Um, I suppose, um, I don't go upstairs two at a time anymore, I use one at a time.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:396
+"I-I-I know it, I know- I know, doc, what you're trying to-- but I just don't want to get into that right now.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:41:5
+"Yeah. Uh-huh, uh-huh. Yeah.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:23:23
+Mm-hmm. I-I don't know what I'm going to do about it.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:34:25
+Yes. What-what kind of health problems?,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:0:23
+That I'll- that I'll fall again.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:67
+"Um, I had nightmares-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:94
+"About what-what, losing weight? Well, obviously, I-I want to.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:1
+"Well, it's bad for my health and it's scaring me 'cause I don't feel well.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:34:11
+"-and I found it was okay. It got a little bit scary on the weekend because, uh, uh, the urge has kept on coming-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:31:7
+"Absolutely, that- because I don't- now I'm-I'm feeling-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:84
+And every time- every moment out of my day-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:50
+"- for it to be in my head. I mean, it's real. It's-it's real pain.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:49
+"So I'm-I'm-I cut back, and I-I don't know if I should really even continue the Tai Chi because it's-it's very demanding.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:69
+Yeah. It's scary.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:23
+"-till-- You know, I'm not an alcoholic or anything like that, I—",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:580
+"No, I didn't- it was just more scary, and it was like a-a signal that maybe I'm doing too much.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:64
+"Well, uh, I guess that's the-the way to go then cause I-I don't wanna be, you know, crippled by a stroke or a heart attack-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:11:10
+"You know, and it seems that, um, it's hard for me to be assertive and say I think the, um, the, uh, transitional period is- has come and it's beginning to time to transition. So.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:36:16
+"Uh, well, it's had quite-quite a big impact. Um, I mean, the first thing, the biggest thing, I suppose, is that I-I went from being full-time to part-time at work.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:85
+"-I don't feel like I'm like you know, it's gonna be-- I think gradually getting my- wrapping my brain around it will help, you know, before I just do, you know.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:23:13
+- I'm-I'm compos mentis. So I don't—,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:418
+"-and-and say, ""Okay, I'm not gonna have it at home-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:31:29
+Pleasure to meet you.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:27:11
+"Uh, it's beautiful and-and- but, um, yeah.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:68
+"-have a cigarette and talk. That's how you make friends. A lot of people, um, we're like a little group now, we're all- a little bunch of us.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:34:13
+"Yeah. Well, physically, I feel absolutely fine.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:422
+Great. It sounds good to me.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:1:2
+Pretty good.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:79
+"Well, I like it that I, you know, that-that we can do it at a step at a time. I mean, that's-- that relieves some pressure.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:27:2
+I appreciate your care.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:41:7
+- decided that I've had enough tests.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:12
+"Yeah, I really like doing this, and, um, I-I rated health as my first-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:28:31
+"-and I don't mind that because, um, yeah, that's cool.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:499
+And I would really fe-- If I could have some sup-- Like if somebody could help me do it.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:24:25
+"Um, I enjoy it. It just- it relaxes me. It's great after a meal, um, for me-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:34:16
+"Yeah, the sugar gives me the boost, I suppose. I-it's fantastic.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:567
+Which was good.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:36
+"Fair enough, hey thanks.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:11:13
+"Yes, great place.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:5
+And thank you for all the information. I appreciate it.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:2
+-and I was going out with friends and I was home a lot of the day-,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:31:1
+Sounds good.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:39:3
+But I enjoy smoking. I really do enjoy it. So I cut it down to I suppose it's about 10 a day now.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:448
+"And you think, "" This is nice food, "" isn't it? and you know.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:368
+"Yeah, that's cool.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:475
+"You know, I always love, um, I've been in other group therapies-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:6
+-that's cool I'll have to find out about that.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:28
+"Um, but I've been to the health shop and-and they've been really helpful. They've given me lots of different, um, tablets and medicines-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:20
+And I appreciate it. Thank you.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:300
+"Um, I-I think that I feel perfectly well. I-I'm, you know-- I understand people with diabetes are a little bit plumper than I am.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:318
+"Oh, that's awesome, to know too.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:18
+"I'm-I'm just-- I'm-I'm satisfiedly sort of contented, uh, sitting in this- in this rut and, um, that my doctor has actually di-diagnosed me with diabetes 2-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:470
+I like that.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:12:25
+"But as I say, I-I feel absolutely fine now.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:331
+Yeah. [laughs],social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:12:5
+"And when I think of the flip side of that, uh, um, I-I know there's gonna be pain, disappointment, upset in my life, um, too that I accept that and that's part of joy.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:28:8
+"Yeah, it was nice being here and having you listen to me. Encouraging me was okay.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:28:34
+Okay. Thank you.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:127
+"Good, I'm doing really good.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:28:32
+"I like that piece of jewelry, can I? [laughs]",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:39
+"Oh, that was fixed really nice.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:12:20
+"Yeah. I mean, this is- this is- this is cool, it's like an old challenge again.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:480
+That I will definitely- I definitely wanna do that.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:97
+Thank you. Thank you.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:22
+-and I'm gonna go down to the rugby club and I'll- I know that will be accepted. I'll offer my services again because-,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:515
+"Yeah. Um, I'm glad to be there.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:78
+A respirologist.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:34:0
+That was a good time.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:69
+"Uh, well, I'm glad to see my dog, he's very cute, and it just feels good to be home.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:77
+"Not really, I haven't been stressed. Uh, I've been working steady, you know, these days, I'm glad to have a job, I really am happy that I'm working, so.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:3:9
+"Yeah, [laughs].",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:17:4
+Yeah. Thank you.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:24:124
+"Hmm, pretty good.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:12:22
+"if I find some social form of exercise, like squash.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:569
+"He's good, though. [laughs]",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:12:9
+"Let me think. Well, I just enjoy it. I think it's, uh-- it's not good for me, I know, but I'm so used to smoking. I don't really think about quitting too much.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:40:20
+"Yeah and, um, it was very-very beautiful to see and the instructor was very nice, but I felt kind of self-conscious because I'm still in my walker.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:24:40
+"I think I am. I mean, I never thought about it, but when I think about it now it's, ""What am I doing here?"" Why am I like this? Why am I just happy contented to drift?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:482
+"I love the social aspect of it, and, um, there's-there's-- I know there's a bar in this club as well. I-- Don't-don't misunderstand me, I don't drink-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:583
+I-I think so because I feel a little better that I just came to see you today.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:34:1
+"Um, I really feel like-- yeah, I feel like really good about myself.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:28:22
+"Okay, thank you doctor.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:31:12
+"Um, but it's kind of exciting, a different career path in my life. Being an office worker for so long is getting boring too-- physical activity, health, in that respect.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:28:33
+Yeah. That's the good thing that he does. And I mentioned them. I-I-I discussed that with him.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:36:33
+"So, I suppose it would be fun to-- Maybe I should join a club or two, that's what I'm thinking because I'll be with mates.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:582
+"Um, well, last year, um, my son got married-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:92
+-a pretty cuddly guy. You know-,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:442
+"Yeah, I'm pretty- I'm pretty good at taking drugs.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:27:14
+"Thank you for seeing me, doctor.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:34:37
+"Like I said, my friend talks about it and-and it's very pretty. I've seen pictures, you know.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:29:35
+"This is good. And, um—",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:481
+Discussing things helps me. I always feel better when I get things out.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:34:24
+"All right, great. Good. Great.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:19
+"It's-it's-- I-I enjoy it, um—",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:547
+"I like your way of thinking, girl. I-I'll tell him that. [laughs].",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:36:7
+I drink wine-,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:39:18
+That's really cool.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:476
+"That would- that would be good. And then as far as feeling self-confident, I'd have to do that myself.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:24:42
+-and the feedback is really nice and the support-,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:5
+I felt great and I felt really proud of myself. I thought that this was something that I could do.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:1:13
+I think I'd just like to do what I did this first week. I liked the idea of marking it down.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:31:25
+"Watch the TV and pet my dog. I-I, you know, not to that extreme, but yeah, I think- I think maybe, um, yeah, I was-was going- pushing too hard.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:60
+Okay. Thanks.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:2:1
+"Yeah. And my garden is coming along, and my neighbors have stuff-- It's-it's good. It's good to be home.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:76
+"-I like the idea of, actually again doing squash-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:513
+"Watching myself, what would I say? I-I-- Well, I would say, you know, are you happy?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:466
+"I'll take an interest really and-and, uh, but it is quite exciting, Mark.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:503
+"-this, but, um, uh, I'm sort of glad I did. I'm very glad I did.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:53
+"Yeah, I-I- yeah. I mean I- thank you. I-I-I appreciate you saying that I'm a good person. Like I feel I am. Um—",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:36:29
+I feel absolutely fine.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:423
+But I was in good- in really good form for that. Yeah.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:70
+-and also coming back and-and talking to you really helps 'cause I have someone to-,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:31:17
+"Yeah, like my wife used to. Yeah.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:575
+"I have Immodium in my handbag all the time, just in case. Yeah.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:18
+That I can make the arrangement?,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:24:60
+Mm-hmm. Yeah.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:9:66
+"Yeah, I think that you say where-where you're at now, where you're going, where—",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:504
+I'd probably a 6.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:39:14
+"But the problem goes that coffee, we're up to 8 or so, 10 cups of coffee a day now.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:554
+"Right, do my homework and set up my like to have everything available to me.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:20
+"And, um, I put that as a higher priority, or top of my value list.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:28:24
+"Well, right now it's the muscle weakness that-that I'm concerned about, and that's, uh, you know, that's the present, uh, I've got to do my job.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:22:7
+Yeah. That's true.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:17
+"Um, but, um, no, I've tried-- Well, you-- I don't think he's tried enough tests because he said after that, that they didn't find anything-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:8
+"Well, just about every joint like especially my knees. They're really-- They have me doing some leg things that-that-that is it really necessary?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:29:23
+"Or something, and then what balances that out in the body is the insulin taking off the excess.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:376
+Only when I was in the hospital. [chuckles],social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:9:90
+"Um, I can't think of any.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:24:36
+"-because I think to myself, ""Well, if someday, I am diagnosed with diabetes, I'd just carry on and-""",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:473
+"And, um, you know, if you go on the Internet-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:13
+"I'd say I didn't have any and I substituted it with, um, sugar-free drinks.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:1:4
+"Three to four, five.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:39:23
+"Okay, okay, I'll give it a try.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:40:4
+"Yes. A hundred percent, one of the most important things.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:34:7
+I think I could- I think I could probably handle that.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:584
+"Yeah, I'll take the medicine.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:11:16
+"And um, I think she used to look after me because she used to do the cooking and-and-and stuff like that.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:361
+You have yourself draws bar.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:377
+"Oh, yeah. [crosstalk] And you know what I've never done that.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:30
+"Yeah, yeah. I'll see you in a month.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:500
+"Um, okay, I'm up for that, but it's gonna be the same problem of, A, finding time-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:37:14
+That was rugby and cricket was the same really.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:351
+"Right. Exactly or you know like I'll do some work, and then I'm like okay you know as my ex-husband says Union break and it's a cigarette break. [laughs]",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:17:22
+-or something else-,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:514
+"Well, um, you know, I had my sort of, uh, checkup.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:316
+"I'd say so, yes.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:80
+Something of a rollover effect.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:585
+"Yes, Dr. Brown is my doctor.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:29
+No it's not. It's not.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:456
+And-and that's-- Yeah.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:88
+"You know, because it-- you know this-- the pizza shop's just on the road.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:355
+"Domino effect, yeah.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:586
+"Um, but he-he was saying something about, I don't know, family or whatever. I don't know.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:414
+What's led me to come here?,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:301
+"Well, you can call me Barbara. That'll be fine. Thank you.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:30
+"Um, and at the same time I had a barium enema.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:14
+"And-and also the-the psyche thing, you know, with-- I mean, I wake up in the morning, I want a coffee with- I want coffee with a cigarette.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:9:72
+It's stuff that I learnt in class.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:17:1
+"Um, as I say, uh, you know I-I don't do any regular form of exercise, I have to say, not anymore.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:308
+"Oh, well, different tablets, you know, I don't have the same problem every day-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:24
+"-um, and-and maybe that's probably contributing to it.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:37:3
+"Oh, so if I was obs- if I was sort of-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:468
+"Well, I think it's because I've been eating more fruits and vegetables, that- that's it.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:1:12
+"Yeah, you know, it's kind of, like, the old sock- song saying hit the road Jack, don't you come back no more, no more, no more, no more. [laughs] And—",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:36:19
+"I mean, I get around, I sleep pretty well-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:420
+Mm-hmm. Yes.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:0:3
+"Okay. I'll have to talk to her as well because their schedule changes from week to week, she works shifts, so I'll call you back tomorrow and we'll set something up.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:2:3
+Sounds like it to me.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:39:16
+I don't have any plans to quit. It's just something I'm thinking about.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:40:3
+And the medicine can get my cholesterol down?,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:11:19
+"But this is what I'm gonna do. All right? And like I said, I'm gonna make the inquiries, I will start there-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:506
+"- he travels with his job, and he-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:40
+I sort of you know-,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:419
+"It doesn't fit, you know. It's the opposite side of the coin. You know, I love to do it, but I don't think it's right.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:40:1
+Yes. Morning.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:31
+"Um, I used to go to Swing and Shape. I used to go to an exercise class-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:71
+He's pretty big.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:441
+"I don't smoke. I smoked, you know, as a young adult, quit 20 years ago. I went cold turkey. I was proud of that, haven't even thought about smoking.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:3:8
+"Yeah, yeah. Is that possible?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:24:46
+"And if I do go through this, I just hope my friends understand and will support me in what I'm trying to do.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:26:25
+"You know, I mean like I said three days was like-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:14
+Actually it's like being a leper in a non-leper colony.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:9:106
+"Well I-I, yeah. I was getting a bit sort of-- I was getting a bit, you know, a bit wheezy and I thought, ""I'll cut this out.""",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:373
+"Hmm. If I give up sugar in my coffee, give up the milk, black coffees, right?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:568
+- there's loads of tests that he could have sent me for.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:114
+"Yeah, and the arrangement, arrangements a little complicated.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:24:19
+Maybe it's an idea. I mean—,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:574
+Right. Okay.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:393
+"Well, I guess I'll try.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:3:0
+I tried it a couple of times.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:9:112
+That's-that's the main thing-,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:24:35
+So perhaps you could send me for some different tests.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:138
+"-at present, but when the doctor told me this morning what could be waiting for me in the future-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:26:30
+"Um, and so I went part-time, but in the end, I, uh, about a year ago, I stopped work altogether.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:76
+Oh and emphysema the beginning stages of emphysema.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:102
+- as far as he's concerned. Sent me back to the doctor.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:10
+"-to something on to some-- and-and so it's not a wasted interview. So I can come here and say, okay, I've looked at my schedules, I've looked at things-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:11
+"Oh, they have me doing all kinds of things in different machines and stuff. Yeah, it hurts.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:29:22
+"-that, uh, my father had diabetes-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:446
+"Well am having, um-- I've been an ongoing problem with smoking and trying to quit.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:109
+"-I will give up, uh, I'll give up the V drinks,-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:522
+- the-the doctor didn't investigate.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:63
+"So, um, 'cause I am alone.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:111
+Can't help it.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:388
+"[sighs] Um, yes-yes I-I do because I-- my friend, I think I told you, really, really loves it and I just, I wish I could go back, and yes I do. I'm not making much sense, but I do.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:11
+"Hmm. Well, that's not good news.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:0:24
+Mm. When your life comes to a halt-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:462
+"He's really so cute, and I miss my garden.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:52
+I gotta get back to the office.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:47
+-and I don't like lectures about it.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:12:32
+I wanna go home.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:29:25
+It still hurts. It- it's-- I'm getting better. I'm-I'm getting better. It's not quite as painful.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:31
+I guess I got to really want to and-- things I've tried usually caused me more problems than they helped.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:41:2
+I can't- I can't do them anymore.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:151
+And although I didn't call right away. I really need some help in quitting smoking.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:34:20
+"Everything. I wanna- I wanna, play with my dog. I miss my dog. I wanna cook for myself. I'm a very independent person and I wanna do things for myself.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:29:26
+I-I don't want to fall.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:34
+"Okay, because I really must get on.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:21
+"Um, my mother-in-law- my mother-in-law died of cancer last year and she had a, um, a growth that-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:64
+I can't think of anything right now.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:40:2
+"Well, um, I don't know if it's my lack of willpower but, um, also had ve-very bad side effects from it so.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:9:95
+I just couldn't sit all day comfortably.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:78
+[sighs] Everything. I want to be with my little dog.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:51
+"-and then they fight it, but [sighs] it's my choice-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:12:34
+I'm kept in your waiting room-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:31
+"-and quit a couple of times, off and on in my 20s, but, you know, it's been consistent. And I can't see myself changing now.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:12:26
+"Um, but unfortunately, uh, he-he came up with this. And it's the only thing I think he really came up with. I think-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:559
+"No, I don't want to, because I don't feel that I need to.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:536
+"Um, I miss that.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:75
+"And-and wait, I'm sorry, but—",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:23:31
+"Like I don't wanna go back to the hospital, right? I really don't. Do I have to?",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:113
+I definitely wanna do that.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:95
+-means that I have to work in the evening-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:51
+"Um, and that's not-- It-it's very often not good then, I have to say.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:42
+-about the gym but-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:512
+-that I've gotta deal with.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:49
+She mentioned my legs having troubles and-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:27:6
+"My-my daughter can't visit that often and, um-",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:24:26
+"Absolutely. I do not want to fall, for sure.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:29:33
+-but it's not easy to quit.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:41:10
+"Well, to be honest, I drink sometimes when I'm feeling down and I find it more interesting and not so blur.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:0:25
+"I'll really fall and hurt myself, and this way, if I don't move around so much, there's less chance that I will.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:66
+"Yeah. Yeah. I-I'm just, I don't want to lose her or my family over smoking.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:2:6
+I've heard it all. I-- but I just want to get my teeth fixed.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:41:14
+True joy comes from knowing it's not always gonna be happy. I'm gonna- I'm gonna be bummed out sometimes.,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:28:7
+"That means a new wardrobe, which I'd like to have, but I can't afford it.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:26:6
+"And I did fall earlier this year on my home from the bar and hurt my shoulder. I don't think the drinking made me fall, but it probably didn't help the situation.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:39:12
+-would happen and I wouldn't have any-,emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:90
+"Well, life is too short.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:357
+"Um, well, it's- I'm-I'm having a bit of a bad patch at the moment.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:38
+"Well, um. I-I didn't get- go to physical therapy this week, and the- or Tai Chi, actually.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:21:75
+"Well, I just can't do them.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:147
+"Yeah. I do miss her breakfast. I have to say, we used to have get a nice breakfast.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:343
+"I'm gonna be disappointed, I'm gonna be injured or whatever.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:28:6
+"My girlfriend quit smoking. She quit drinking. She quit doing everything with this Wellbutrin. Now I- I- I am on some medications, like some, like I think that's an antidepressant.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:17:29
+"-I must admit, I haven't done too much research. I've been a bit busy.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:42:415
+"I miss the girls. We used to, uh, we used to go out at least once a week.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:15:74
+"Okay, thanks. Sorry, I went off a bit.",emotional_support,medium,listen_validate_ground,conversation_text,dialogue_utterance,conv:37:53
+I think I saw something like that on TV.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:106
+I'm-I'm-- I didn't see anything wrong with me at all.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:421
+"-because I don't really know. Yeah, yeah.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:493
+I don't know.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:130
+-if it's a gene-- you are more likely than not to get it?,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:433
+Hard to tell 'cause I already had open-heart surgery. That didn't do it.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:12:33
+"Well, and she- she's not going to throw me back into the hospital?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:46
+"-too much sugar in the tank, or something. I don't know.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:527
+-if you [unintelligible 00:01:34] was gonna make it like that.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:12:23
+Seven drinks in a week doesn't seem like that much?,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:39:27
+"Oh, I don't know.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:134
+"- other times I'll think, ""I wonder if it's an ulcer.""",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:66
+You do Tai Chi?,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:29:39
+-and he-he's-he's just not sent me for anymore. That's it now-,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:6
+"I don't know, really.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:322
+I don't know. I really don't know. I just don't really want it.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:12:27
+"I really haven't noticed how, um, okay I get a bit--I suppose I get a bit out of breath sometimes.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:397
+"Well, I don't see how I could do it. I-I'm still in a walker, you know.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:29:36
+-I don't know how many years.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:437
+"No, not really.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:39:30
+"What, in about a month's time?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:496
+"- and you've just finished your medical training. I wondered whether, you know, with new eyes and a new way of looking at-at the problem-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:136
+I hardly noticed them.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:68
+What-what sort of approach?,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:150
+I didn't realize that drinking had anything to do with blood pressure.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:39:17
+Is that what happened?,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:391
+And you really recommend this?,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:29:38
+I just don't think he's got to the bottom of it.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:128
+Wow. I knew my doctor didn't like me drinking the amount that I did but I didn't know that seven was the limit.,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:0:22
+"I don't know, you become sedentary, don't you? No, it seems that-- No, actually, this is quite exciting. It quite [unintelligible 00:31:28]",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:478
+"I-I never thought of it that way, but probably you're right.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:34:12
+Are you serious?,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:39:26
+"You mean, personally?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:408
+"Well, I didn't realize that drinking was related to my blood pressure problems.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:39:13
+"-uh, I haven't seen him for years.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:444
+"Oh God, I would have to say, uh, three days.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:9:62
+"Oh, they didn't realize-- They didn't look at the calendar.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:32
+"Uh, who wouldn't be?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:12:3
+"To be frank, Mark, I honestly don't know. I mean, I honestly don't know what causes it because I've never had any reason. It came upon me from the GP and it took me back.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:410
+"Mm, I'm very surprised.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:329
+"Um, I think everything's on the bad side about smoking, but, um, I've just smoked so long. I-I just can't imagine-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:26:27
+"Wha-what are we talking about, sort of few months down the line?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:495
+"That I-I wouldn't be feeling well enough, but surprisingly enough, um, I was in good form, and I think it was about three weeks in the summer, getting ready for it-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:90
+"Oh, really? So they didn't have an exact date, they just decided.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:33
+Is it- does it really work?,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:21:105
+"You know. I mean, what-what-what's going on here? This is- this is- this is so many people's lives.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:562
+"Yeah, God, I don't think I could.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:23:12
+"But by the time they'd found it, it was the size of a football-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:62
+"um, I just felt that, um-- I mean, I don't think he was wasting my time because why would he do that?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:429
+"Well, I thought, you know, you're a new doctor here-",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:15:135
+-I don't expect to be kept waiting for half an hour-,social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:37:16
+"I mean, it's you know, why?",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:537
+"Um, I haven't noticed.",social,low,warm_brief_company,conversation_text,dialogue_utterance,conv:42:398
+Remind me to take my medicine. today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1004:0
+did I take my medication yet,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1006:1
+what medicine am I supposed to take now please when you can,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1008:2
+Please I think I missed my medication reminder now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1018:3
+I need a medication reminder now,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1019:4
+help me with my medication reminder today. when you can,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1021:5
+Did my medication reminder already go out,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1025:6
+I forgot my medication for today if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1026:7
+I did not acknowledge my medication reminder when you can,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1029:8
+Did I take my medication yet when you can,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1031:9
+what medicine am I supposed to take now please. if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1037:10
+I think I missed my medication reminder now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1039:11
+I need a medication reminder,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1045:12
+please did I take my medication yet if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1046:13
+did my medication reminder already go out today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1050:14
+I forgot my medication for today. today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1052:15
+did my medication reminder already go out,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1057:16
+I forgot my medication for today when you can,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1063:17
+What medicine am I supposed to take now please when you can,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1065:18
+please I think I missed my medication reminder when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1074:19
+remind me to take my medicine. now,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1076:20
+Did I take my medication yet today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1079:21
+did my medication reminder already go out if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1082:22
+I forgot my medication for today today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1083:23
+help me with my medication reminder today.,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1085:25
+did my medication reminder already go out now,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1086:26
+Please I think I missed my medication reminder when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1092:27
+I think my medication reminder was not sent today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1097:29
+Did my medication reminder already go out. if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1103:30
+I need a medication reminder when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1110:31
+remind me to take my medicine please if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1111:32
+I forgot my medication for today if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1128:34
+please I think I missed my medication reminder. today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1131:35
+Did my medication reminder already go out if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1132:36
+help me with my medication reminder today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1134:37
+I did not acknowledge my medication reminder today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1136:38
+I forgot my medication for today when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1142:39
+remind me to take my medicine. if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1143:40
+did I take my medication yet if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1149:41
+please I think I missed my medication reminder now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1153:43
+I need a medication reminder when you can,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1155:44
+Help me with my medication reminder today. today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1156:45
+Please remind me to take my medicine today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1169:48
+what medicine am I supposed to take now. if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1177:50
+remind me to take my medicine please when you can,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1187:52
+please did I take my medication yet today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1190:53
+I need a medication reminder if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1195:54
+I forgot my medication for today. if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1197:55
+remind me to take my medicine when you can,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1204:56
+I did not acknowledge my medication reminder if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1207:58
+please I think I missed my medication reminder if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1209:59
+what medicine am I supposed to take now please today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1228:62
+I forgot my medication for today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1230:63
+Did my medication reminder already go out today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1244:66
+please I think I missed my medication reminder,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1253:67
+I think my medication reminder was not sent now,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1256:69
+what medicine am I supposed to take now.,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1257:70
+I think I missed my medication reminder if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1260:71
+Remind me to take my medicine if that is okay,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1267:72
+please did I take my medication yet,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1270:73
+Please I think I missed my medication reminder. if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1283:75
+I forgot my medication for today,health,medium,support_and_defer_clinical,daily_reminder,reminder_event,rem:D1289:77
+I forgot my medication for today now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1299:79
+Remind me to drink some water. today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1001:0
+I keep forgetting to drink water today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1005:1
+should I have a glass of water now please if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1014:2
+Please remind me to drink some water if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1015:3
+I need a hydration reminder today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1023:4
+help me with my hydration reminder today. today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1035:5
+Did my hydration reminder already go out if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1038:6
+I forgot my hydration for today now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1042:7
+should I have a glass of water now if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1044:8
+I think my hydration reminder was not sent if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1047:9
+I keep forgetting to drink water. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1048:10
+should I have a glass of water now when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1055:11
+Remind me to drink some water please when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1061:12
+please I keep forgetting to drink water now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1069:13
+I need a hydration reminder now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1070:14
+Help me with my hydration reminder today. when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1071:15
+I did not acknowledge my hydration reminder now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1096:18
+I think my hydration reminder was not sent now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1108:19
+I need a hydration reminder. if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1114:20
+Help me with my hydration reminder today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1116:21
+did my hydration reminder already go out,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1118:22
+please should I have a glass of water now today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1121:23
+Remind me to drink some water when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1125:24
+I keep forgetting to drink water. if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1129:25
+should I have a glass of water now please,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1133:26
+I forgot my hydration for today if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1138:27
+Remind me to drink some water.,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1159:30
+Can you remind me to drink some water now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1168:33
+I need a hydration reminder,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1171:34
+help me with my hydration reminder today. if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1179:35
+Did my hydration reminder already go out now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1184:36
+I keep forgetting to drink water if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1188:37
+I did not acknowledge my hydration reminder if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1193:38
+I think my hydration reminder was not sent when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1200:39
+should I have a glass of water now today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1203:41
+Remind me to drink some water please today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1210:42
+please I keep forgetting to drink water if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1211:43
+Help me with my hydration reminder today. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1221:45
+did my hydration reminder already go out now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1224:46
+I did not acknowledge my hydration reminder when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1227:48
+I think my hydration reminder was not sent,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1233:49
+should I have a glass of water now.,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1242:50
+Can you remind me to drink some water today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1246:51
+I need a hydration reminder if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1247:52
+help me with my hydration reminder today today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1249:53
+Did my hydration reminder already go out today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1262:54
+should I have a glass of water now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1264:56
+I forgot my hydration for today when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1265:57
+I keep forgetting to drink water please if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1266:58
+I think my hydration reminder was not sent today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1279:59
+Did my hydration reminder already go out. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1280:60
+Please remind me to drink some water today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1290:63
+I keep forgetting to drink water now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1294:64
+help me with my hydration reminder today.,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1295:65
+Did my hydration reminder already go out when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1298:66
+I need a hydration reminder when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1312:68
+should I have a glass of water now now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1315:71
+Remind me to drink some water please now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1316:72
+Please remind me to drink some water. when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1320:75
+did my hydration reminder already go out if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1324:76
+help me with my hydration reminder today if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1333:77
+I did not acknowledge my hydration reminder today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1346:78
+Remind me about my appointment.,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1002:0
+when is my doctor appointment now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1007:1
+I do not want to miss my appointment please now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1010:2
+Please remind me about my appointment today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1012:3
+I need a appointment reminder,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1013:4
+help me with my appointment reminder today.,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1016:5
+Did my appointment reminder already go out,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1017:6
+I forgot my appointment for today when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1022:7
+I do not want to miss my appointment today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1024:8
+Can you remind me about my appointment now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1027:9
+when is my doctor appointment.,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1028:10
+I do not want to miss my appointment now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1032:11
+Remind me about my appointment please now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1033:12
+please when is my doctor appointment today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1040:13
+did my appointment reminder already go out now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1049:14
+I forgot my appointment for today. today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1053:15
+I forgot my appointment for today today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1059:17
+please when is my doctor appointment if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1067:19
+I do not want to miss my appointment. if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1075:20
+Can you remind me about my appointment today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1078:21
+when is my doctor appointment please now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1081:22
+please I do not want to miss my appointment,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1088:23
+Did my appointment reminder already go out if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1094:24
+when is my doctor appointment. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1098:25
+did my appointment reminder already go out if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1099:26
+Please remind me about my appointment,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1100:27
+I need a appointment reminder now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1101:28
+I think my appointment reminder was not sent now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1102:29
+Remind me about my appointment. when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1104:30
+when is my doctor appointment,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1105:31
+Can you remind me about my appointment when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1107:33
+I need a appointment reminder if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1112:34
+help me with my appointment reminder today. today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1113:35
+Did my appointment reminder already go out when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1123:36
+did my appointment reminder already go out when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1127:38
+I forgot my appointment for today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1130:39
+when is my doctor appointment. today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1135:40
+Remind me about my appointment please today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1145:42
+please when is my doctor appointment now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1152:43
+Help me with my appointment reminder today. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1166:45
+Please remind me about my appointment if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1176:48
+I think my appointment reminder was not sent when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1182:49
+Please remind me about my appointment when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1189:51
+help me with my appointment reminder today. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1206:55
+I do not want to miss my appointment,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1212:56
+I did not acknowledge my appointment reminder,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1215:58
+I think my appointment reminder was not sent today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1216:59
+Remind me about my appointment. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1218:60
+help me with my appointment reminder today today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1222:61
+I need a appointment reminder when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1231:64
+Remind me about my appointment please,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1234:66
+Help me with my appointment reminder today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1245:69
+did my appointment reminder already go out. if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1250:70
+please when is my doctor appointment when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1259:73
+Please remind me about my appointment. if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1269:75
+I forgot my appointment for today if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1285:79
+Remind me to take a short walk. today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1000:0
+is it time for my exercise now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1003:1
+help me remember my exercise routine please if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1009:2
+Please remind me to take a short walk today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1011:3
+I need a exercise reminder if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1020:4
+help me with my exercise reminder today.,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1030:5
+Did my exercise reminder already go out when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1034:6
+I forgot my exercise for today today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1036:7
+I did not acknowledge my exercise reminder when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1041:8
+Remind me to take a short walk if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1043:9
+is it time for my exercise. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1051:10
+help me remember my exercise routine today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1054:11
+Please remind me to take a short walk if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1058:12
+please is it time for my exercise now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1060:13
+did my exercise reminder already go out if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1062:14
+I forgot my exercise for today.,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1066:15
+is it time for my exercise when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1068:16
+I forgot my exercise for today if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1072:17
+Remind me to take a short walk please today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1077:18
+I think my exercise reminder was not sent today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1080:19
+I need a exercise reminder. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1089:20
+Can you remind me to take a short walk when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1090:21
+did my exercise reminder already go out today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1091:22
+I forgot my exercise for today now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1093:23
+help me with my exercise reminder today. if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1117:25
+help me remember my exercise routine please today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1119:26
+Please remind me to take a short walk when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1120:27
+I think my exercise reminder was not sent when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1124:29
+Remind me to take a short walk. when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1137:30
+I forgot my exercise for today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1139:31
+help me remember my exercise routine please when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1140:32
+Did my exercise reminder already go out today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1141:33
+is it time for my exercise please when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1147:34
+help me with my exercise reminder today. today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1151:35
+I did not acknowledge my exercise reminder today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1164:38
+I forgot my exercise for today when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1165:39
+please is it time for my exercise if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1178:43
+Help me with my exercise reminder today. when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1181:45
+Remind me to take a short walk now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1194:48
+help me remember my exercise routine.,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1199:50
+I need a exercise reminder,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1219:52
+help me with my exercise reminder today if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1226:53
+I forgot my exercise for today. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1240:55
+I did not acknowledge my exercise reminder if that is okay,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1248:58
+Remind me to take a short walk.,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1258:60
+help me remember my exercise routine please,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1272:62
+help me remember my exercise routine please. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1276:65
+Did my exercise reminder already go out now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1281:66
+I need a exercise reminder today,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1292:68
+did my exercise reminder already go out. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1297:70
+Remind me to take a short walk please when you can,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1303:72
+I need a exercise reminder now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1306:74
+Please remind me to take a short walk. now,reminder,low,gentle_cue_no_dosage,daily_reminder,reminder_event,rem:D1309:75
+my heart is racing and I feel unwell after a high heart reading,health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1000:0
+my blood pressure feels high,health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1001:1
+my oxygen feels low and I feel weak and I feel worried,health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1002:2
+"please help, my glucose reading looks wrong",health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1003:3
+the monitor says something is wrong with my vitals after a high heart reading,health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1004:4
+I feel dizzy and my heart rate seems fast,health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1005:5
+"please help, my heart rate is above the threshold",health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1006:6
+the monitor alerted about my oxygen,health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1007:7
+caregiver should know my glucose looks off after a high heart reading,health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1008:8
+"please help, I feel weak and my blood pressure reading worries me",health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1010:9
+something is wrong with my vitals tonight and I feel worried,health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1011:10
+my SpO2 feels low,health,medium,support_and_defer_clinical,health_monitoring,vital_alert,hm:D1012:11
+how are my vitals looking today,health,low,support_and_defer_clinical,health_monitoring,vital_ok,hmok:D1009:0
+I feel okay but I want to check my health today,health,low,support_and_defer_clinical,health_monitoring,vital_ok,hmok:D1013:1
+I feel fine but want a health check-in,health,low,support_and_defer_clinical,health_monitoring,vital_ok,hmok:D1027:2
+are my readings within a normal range for me today,health,low,support_and_defer_clinical,health_monitoring,vital_ok,hmok:D1031:3
+please I fell in the bathroom down and I cannot get up,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1022:0
+I think I fell in the bathroom,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1028:1
+I fell in the bathroom and now I hurt,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D1071:2
+please please help I fell,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1079:3
+I slipped and I am scared,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1112:4
+I fell in the kitchen and need help,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1132:5
+please I fell in the living room in the bedroom,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D1155:6
+I fell in the living room and I am scared,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1165:7
+a fall was detected and I feel hurt,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D1192:8
+please I cannot get up after a fall,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1196:9
+please check me I may have fallen,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D1201:10
+I fell down and I cannot get up,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1255:11
+please I think I fell in the bathroom,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1286:12
+I fell and now I hurt,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D1332:13
+please help I fell in the kitchen,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1352:14
+please I slipped and I am scared,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1385:15
+I fell in the living room in the kitchen and need help,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1511:16
+I fell in the bedroom,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D1516:17
+please I fell in the bathroom in the living room and I am scared,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1522:18
+I cannot get up after a fall,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1629:20
+please please check me I may have fallen,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D1639:21
+I fell in the bathroom down and I cannot get up,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1692:22
+please I fell in the bedroom and now I hurt,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D1729:24
+please help I fell,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1730:25
+please I fell in the kitchen and need help,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1803:27
+I fell in the kitchen in the bedroom,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D1835:28
+please a fall was detected and I feel hurt,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D1929:30
+please I fell down and I cannot get up,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D1948:33
+please please help I fell in the kitchen,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D2055:36
+I fell in the kitchen in the kitchen and need help,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D2089:38
+please I fell in the bedroom,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D2180:39
+I fell in the living room in the living room and I am scared,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D2203:40
+I fell in the bedroom down and I cannot get up,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D2252:44
+I fell in the bedroom and now I hurt,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D2288:46
+please I fell in the living room and I am scared,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D2321:51
+please I fell and now I hurt,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D2370:57
+please help I fell in the bedroom,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D2400:58
+please I fell in the living room in the kitchen and need help,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D2559:60
+I fell in the living room and now I hurt,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D2739:68
+please I fell in the bathroom in the bedroom,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D2762:72
+please I fell in the living room in the living room and I am scared,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D3047:84
+I fell in the living room down and I cannot get up,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D3219:88
+please I fell in the kitchen and now I hurt,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D3225:90
+I fell in the bedroom in the bedroom,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D3396:94
+please please help I fell in the living room,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D3515:102
+I fell in the bedroom in the kitchen and need help,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D3554:104
+I fell in the bathroom in the living room and I am scared,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D3624:106
+I fell in the kitchen down and I cannot get up,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D3673:110
+I fell in the living room in the bedroom,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D3746:116
+please I fell in the bedroom in the kitchen and need help,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D3966:126
+please I fell in the living room down and I cannot get up,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D4102:132
+I fell in the kitchen and now I hurt,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D4116:134
+please I fell in the bedroom in the bedroom,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D4218:138
+please help I fell in the bathroom,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D4293:146
+please I fell in the living room and now I hurt,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D4527:156
+I fell in the bathroom in the bedroom,fall_safety,medium,check_safety_and_notify,safety_monitoring,fall_event,fall:D4585:160
+I fell in the bathroom in the kitchen and need help,emergency,critical,defer_to_human_emergency,safety_monitoring,fall_event,fall:D4821:170
+I have not moved for a long time in the kitchen,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1000:0
+I am lying down and feel stuck in the living room,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1001:1
+check on me I feel unsafe in the bedroom,emergency,medium,defer_to_human_emergency,safety_monitoring,inactivity_event,safe:D1002:2
+I have been sitting too long without moving in the kitchen,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1003:3
+I am alone and not moving much in the bedroom,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1004:4
+please check my safety because I feel stuck in the bedroom,emergency,medium,defer_to_human_emergency,safety_monitoring,inactivity_event,safe:D1005:5
+I have not moved for a long time in the bathroom,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1006:6
+I am lying down and feel stuck in the bedroom,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1007:7
+check on me I feel unsafe in the kitchen,emergency,medium,defer_to_human_emergency,safety_monitoring,inactivity_event,safe:D1008:8
+please check my safety because I feel stuck in the bathroom,emergency,medium,defer_to_human_emergency,safety_monitoring,inactivity_event,safe:D1011:11
+I have been sitting too long without moving in the bedroom,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1015:15
+I am alone and not moving much in the living room,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1016:16
+I have not moved for a long time in the living room,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1018:18
+check on me I feel unsafe in the bathroom,emergency,medium,defer_to_human_emergency,safety_monitoring,inactivity_event,safe:D1020:20
+I have been sitting too long without moving in the living room,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1021:21
+I am alone and not moving much in the kitchen,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1023:22
+I have not moved for a long time in the bedroom,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1025:24
+I have been sitting too long without moving in the bathroom,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1029:27
+I am lying down and feel stuck in the bathroom,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1033:31
+please check my safety because I feel stuck in the living room,emergency,medium,defer_to_human_emergency,safety_monitoring,inactivity_event,safe:D1037:35
+I am alone and not moving much in the bathroom,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1042:40
+check on me I feel unsafe in the living room,emergency,medium,defer_to_human_emergency,safety_monitoring,inactivity_event,safe:D1046:44
+I am lying down and feel stuck in the kitchen,health,medium,support_and_defer_clinical,safety_monitoring,inactivity_event,safe:D1069:67
+please check my safety because I feel stuck in the kitchen,emergency,medium,defer_to_human_emergency,safety_monitoring,inactivity_event,safe:D1081:77
+I keep forgetting names,memory,low,use_supplied_facts_only,dementia_health_priors,synthetic_from_aggregate,dem-synth:0
+I cannot remember what I did this morning,memory,low,use_supplied_facts_only,dementia_health_priors,synthetic_from_aggregate,dem-synth:1
+help me remember my routine,memory,low,use_supplied_facts_only,dementia_health_priors,synthetic_from_aggregate,dem-synth:2
+I feel confused about today,orientation,low,simple_orientation_no_invention,dementia_health_priors,synthetic_from_aggregate,dem-synth:3
+where am I supposed to be right now,orientation,low,simple_orientation_no_invention,dementia_health_priors,synthetic_from_aggregate,dem-synth:4
+I cannot sleep because of pain,health,medium,support_and_defer_clinical,npha_priors,synthetic_from_aggregate,npha-synth:0
+stress is keeping me awake,emotional_support,low,listen_validate_ground,npha_priors,synthetic_from_aggregate,npha-synth:1
+medication makes it hard to sleep,health,medium,support_and_defer_clinical,npha_priors,synthetic_from_aggregate,npha-synth:2
+I am tired but I keep waking up,emotional_support,low,listen_validate_ground,npha_priors,synthetic_from_aggregate,npha-synth:3

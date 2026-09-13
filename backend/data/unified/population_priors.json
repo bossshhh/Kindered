@@ -1,0 +1,44 @@
+{
+  "dementia_patients_health_data": {
+    "n": 1000,
+    "dementia_rate": 0.485,
+    "depression_rate": 0.245,
+    "common_prescriptions": {
+      "Memantine": 128,
+      "Galantamine": 125,
+      "Rivastigmine": 119,
+      "Donepezil": 113
+    },
+    "sleep_quality": {
+      "Poor": 534,
+      "Good": 466
+    },
+    "note": "Population priors only \u2014 not joined to conversation rows."
+  },
+  "npha_doctor_visits": {
+    "n": 714,
+    "physical_health_codes": {
+      "3": 291,
+      "2": 239,
+      "4": 126,
+      "1": 36,
+      "5": 21,
+      "-1": 1
+    },
+    "mental_health_codes": {
+      "2": 282,
+      "1": 219,
+      "3": 167,
+      "4": 34,
+      "-1": 10,
+      "5": 2
+    },
+    "trouble_sleeping_codes": {
+      "3": 359,
+      "2": 291,
+      "1": 62,
+      "-1": 2
+    },
+    "note": "Encoded survey responses \u2014 used as aggregate priors only."
+  }
+}

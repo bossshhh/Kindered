@@ -1,0 +1,9 @@
+fastapi[standard]>=0.116,<1
+uvicorn[standard]>=0.35,<1
+pydantic>=2.11,<3
+python-dotenv>=1.1,<2
+langgraph==0.6.11
+groq>=0.31,<1
+scikit-learn==1.6.1
+numpy==2.0.2
+pandas==2.2.3

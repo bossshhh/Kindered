@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* shadcn-compatible design tokens (Kindred palette) */
+@theme {
+  --color-background: #f3f7f4;
+  --color-foreground: #173528;
+  --color-card: #ffffff;
+  --color-card-foreground: #173528;
+  --color-primary: #0b835c;
+  --color-primary-foreground: #ffffff;
+  --color-muted: #d7e6dc;
+  --color-muted-foreground: #4d6a5b;
+  --color-border: #c5d8cb;
+  --color-ring: #0b835c;
+  --radius-lg: 1.25rem;
+}
+
+:root {
+  --background: #f3f7f4;
+  --foreground: #173528;
+  --primary: #0b835c;
+  --muted: #d7e6dc;
+  --muted-foreground: #4d6a5b;
+  --border: #c5d8cb;
+}
+
+.bg-background { background-color: var(--background); }
+.text-muted-foreground { color: var(--muted-foreground); }
+.bg-muted { background-color: var(--muted); }
+.border-border { border-color: var(--border); }
+.bg-primary\/20 { background-color: color-mix(in srgb, var(--primary) 20%, transparent); }
+.bg-primary\/10 { background-color: color-mix(in srgb, var(--primary) 10%, transparent); }
+.text-primary { color: var(--primary); }

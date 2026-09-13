@@ -1,0 +1,115 @@
+{
+  "metrics": {
+    "dataset_size": 867,
+    "classes": [
+      "emergency",
+      "emotional_support",
+      "fall_safety",
+      "health",
+      "memory",
+      "orientation",
+      "relative_request",
+      "reminder",
+      "social"
+    ],
+    "accuracy": 0.741,
+    "precision_macro": 0.8022,
+    "recall_macro": 0.7855,
+    "f1_macro": 0.7793,
+    "cv_folds": 5,
+    "threshold_note": "Improved caretaker routing baseline from the unified corpus. This is not a clinical acceptance threshold and does not guarantee correct medical advice."
+  },
+  "top_features": {
+    "emergency": [
+      "help",
+      "emergency",
+      "please",
+      "cannot",
+      "and am",
+      "help fell",
+      "hurt myself",
+      "am"
+    ],
+    "emotional_support": [
+      "it",
+      "well",
+      "don",
+      "uh",
+      "you know",
+      "yeah",
+      "and",
+      "know"
+    ],
+    "fall_safety": [
+      "fell",
+      "hurt",
+      "bedroom",
+      "the bedroom",
+      "in the",
+      "now hurt",
+      "and now",
+      "in"
+    ],
+    "health": [
+      "medication",
+      "medication reminder",
+      "my medication",
+      "medicine",
+      "take",
+      "take my",
+      "my",
+      "to take"
+    ],
+    "memory": [
+      "remember",
+      "what",
+      "my routine",
+      "recall",
+      "what did",
+      "what was",
+      "yesterday",
+      "remember my"
+    ],
+    "orientation": [
+      "feel confused",
+      "about today",
+      "confused about",
+      "confused",
+      "be right",
+      "where am",
+      "right now",
+      "where"
+    ],
+    "relative_request": [
+      "daughter",
+      "my daughter",
+      "my",
+      "son",
+      "my son",
+      "is my",
+      "my family",
+      "family"
+    ],
+    "reminder": [
+      "appointment",
+      "reminder",
+      "exercise",
+      "today",
+      "my exercise",
+      "now",
+      "hydration",
+      "my appointment"
+    ],
+    "social": [
+      "good",
+      "that",
+      "yeah",
+      "like",
+      "um",
+      "know",
+      "really",
+      "it"
+    ]
+  },
+  "corpus": "/Users/bosshhh/Desktop/behavioral-digital-twin/backend/data/unified/caretaker_unified_corpus.csv"
+}
