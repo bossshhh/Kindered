@@ -152,3 +152,4 @@ FastAPI serves the resulting `frontend/dist` at `/app`.
 - Browser speech is used for the MVP; real-person voice cloning is not part of this implementation.
 - The role switch is a demo control, not production authentication.
 - Production deployment would require authentication, authorization, consent, audit logging, encryption, stronger evaluation and clinical/safety review.
+# Kindered
